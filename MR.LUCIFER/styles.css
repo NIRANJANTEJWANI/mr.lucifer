@@ -1,0 +1,62 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f0f0f0;
+}
+
+.login-box,.register-box,.admin-box {
+	width: 300px;
+	height: 400px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 0 20px;
+}
+
+.login-box h1,.register-box h1,.admin-box h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box label,.register-box label,.admin-box label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.login-box input,.register-box input,.admin-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-box input[type="submit"],.register-box input[type="submit"],.admin-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #007bff;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover,.register-box input[type="submit"]:hover,.admin-box input[type="submit"]:hover {
+	cursor: pointer;
+	background: #0056b3;
+	color: #fff;
+}
+
+.login-box a,.register-box a,.admin-box a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.login-box a:hover,.register-box a:hover,.admin-box a:hover {
+	text-decoration: underline;
+}
